@@ -1,0 +1,90 @@
+body {
+	background-color:black;
+	color:white;
+	font-family: 'Lobster', cursive;
+}
+#container{
+	margin:auto;
+	
+}
+.topName{
+	text-align:center;
+}
+.content{
+	width:1040px;
+	margin:auto;
+	
+}
+.tile1{
+	margin:10px;
+	width:500px;
+	height:309px;
+	background-color:black;
+	float:left;
+}
+.tile1:hover{
+	color:orange;
+}
+.tile2{
+	margin:10px;
+	width:500px;
+	height:309px;
+	background-color:black;
+	float:left;
+	background-image:url('img/javaWhite.png');
+	background-position:center;
+	background-size:300px;
+	background-repeat:no-repeat;
+}
+.tile2:hover{
+	background-image: url('img/javaOrange.png');
+}
+
+.tile3{
+	margin:10px;
+	width:500px;
+	height:309px;
+	background-color:black;
+	float:left;
+}
+.tile3:hover{
+	color:orange;
+}
+.tile4{
+	margin:10px;
+	width:500px;
+	height:309px;
+	background-color:black;
+	float:left;
+}
+.tile4:hover{
+	color:orange;
+}
+a.tilelink{
+	color:white;
+	display:block;
+    width:500px;
+	height:309px;
+}
+a.tilelink:hover{
+	color:orange;
+}
+/*
+.invisibleTilelink{
+	display:block;
+    width:500px;
+	height:309px;
+}
+*/
+.footer{
+	background-color:black;
+	padding-top:50px;
+	width:1040px;
+	height:100px;
+	margin:auto;
+	text-align:center;
+	font-size:20px;
+}
+.clearfix{
+	clear:both;
+}

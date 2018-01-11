@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule zatrudnij-programiste-i-grafika index.html
+RewriteRule cyfrowa-grafika art.html
+RewriteRule programowanie-java java.html
+RewriteRule o-grafiku-i-programiscie about.html
+RewriteRule kontakt-programista-grafik contact.html
