@@ -50,6 +50,11 @@ nav ul li{
 	max-width: 100%;
     max-height: 100%;
 }
+.galleryJav{
+	padding-bottom:50px;
+	margin:auto;
+	text-align:center;
+}
 .contact{
 	min-height:600px;
 }
@@ -91,6 +96,14 @@ p{
 	font-size:20px;
 	text-align:center;
 }
+.hrline { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, white));
+	
+}
 .clearfix{
 	clear:both;
 }
+
