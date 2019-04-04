@@ -7,26 +7,24 @@
   <link rel="stylesheet" href="css/styleMain.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
+  <meta name="viewport" content = "width=device-width, initial-scale=1.0">
 </head>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <body>
 
   <div id="header" class="header">
-    <div class="header-content">
-      <div class="header-more">
-        <a href="art.html"><div class="header-art splited-headers">Art</div></a>
-        <a href="projects.html"><div class="header-projects splited-headers">Projects</div></a>
-        <!-- <a href="main.html"><div class="header-main splited-headers">Robert Jaśkowski</div></a> -->
-      </div>
-      <div class="header-more">
-        <a href="about.html"><div class="header-about splited-headers">About</div></a>
-        <a href="contact.html"><div class="header-contact splited-headers">Contact</div></a>
-      </div>
+    <label for="toggle">&#9776;</label>
+    <input type ="checkbox" id="toggle">
 
-      <a href="index.html" id="logo" class="header-main">Robert Jaskowski</a>
-
+    <div class="menu">
+      <a href="art.html">Art</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </div>
+
+  </div>
+  <div class="header-main">
+  <a href="index.html">Robert Jaśkowski</a>
   </div>
 
 
@@ -35,33 +33,7 @@
   </div>
 
   <div class="footer">
-    <div class="footer-content">
-      <p>2019 &copy Robert Jaśkowski</p>
-      <div class="socials">
-
-
-        <a href="https://maxxxer123.deviantart.com" target="_blank">
-          <img src="img/deviantart.svg">
-        </a>
-        <a href="https://www.artstation.com/maxxxer/albums/all" target="_blank">
-          <img src="img/artstation.svg">
-        </a>
-        <a href="https://github.com/robertJaskowski" target="_blank">
-          <img src="img/github.svg">
-        </a>
-        <a href="https://www.youtube.com/channel/UCCa3HL9yIiH0SEtnEw0cxqg" target="_blank">
-          <img src="img/youTube.svg">
-        </a>
-        <a href="https://twitter.com/LustOfArt" target="_blank">
-          <img src="img/twitter.svg">
-        </a>
-        <a href="https://www.linkedin.com/in/robert-jaśkowski-331a9214b/" target="_blank">
-          <img src="img/linkedin.svg">
-        </a>
-
-
-      </div>
-    </div>
+    <script src="js/addFooter.js"></script>
   </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
