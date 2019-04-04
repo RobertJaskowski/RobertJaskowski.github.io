@@ -1,7 +1,7 @@
 window.onload = addFooter;
 
 function addFooter(){
-    var doc = document.getElementById("footer")
+    var doc = document.getElementsByClassName("footer")[0]
 
     var footerContent = document.createElement("div")
     footerContent.setAttribute('class','footer-content')
