@@ -1,50 +1,83 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta charset="utf-8" />
-  <title>Robert Jaśkowski</title>
-  <link rel="stylesheet" href="css/styleMain.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-  <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Robert Jaśkowski</title>
+    <meta name="description" content="Robert Jaśkowski portfolio website">
+    <meta name="keywords" content="robert jaskowski, portfolio, art, projets, contact, about">
+    <meta name="author" content="Robert Jaśkowski">
 
-</head>
-<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
-<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/main.css">
 
+  </head>
+  <body>
+    <header>
 
-
-  <div id="header" class="header">
-    <label for="toggle">&#9776;</label>
-    <input type ="checkbox" id="toggle">
-
-
-
-    <div class="menu">
-      <a href="art.html">Art</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-
-  </div>
-  <div class="header-main">
-  <a href="index.html">Robert Jaśkowski</a>
-  </div>
-
-
-<div class="content">
-  <div class="article quote">Negativity is the enemy <br> of <br>creativity.</div>
-</div>
-
-<div class="footer">
-  <script src="js/addFooter.js"></script>
-</div>
+      <nav  id="header" class="navbar fixed-top navbar-light bg-white navbar-expand-md">
+              <a class="navbar-brand" href="index.html">Robert Jaśkowski</a>
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<script src="js/scrollToTop.js"></script>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="hamburger">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navmenu">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="art.html"> Art </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html"> Projects </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact </a>
+                  </li>
+                </ul>
+              </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="container" >
+        <div class="row d-flex justify-content-center">
+            <div class="col-xs-12 vertical-center">
+              <div class="display-1 text-center ">Negativity is the enemy <br> of <br>creativity.</div>
+            </div>
+        </div>
+
+
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+
+        <div class="footer mt-auto">
+          <div class="row text-center justify-content-center populate-footer " >
+            <script src="js/addFooter.js"></script>
+          </div>
+          <div class="row text-center justify-content-center">
+            <span id="footerScrollUpToTop">Go to Top</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollUpButton"  title="Go to top">Top</button>
+    <script src="js/scrollToTop.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
