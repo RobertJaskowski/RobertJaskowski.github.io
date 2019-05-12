@@ -42,18 +42,7 @@
    max-height:  400px;
  }
 
- .widt{
-   
- }
 
-
-/* .art{
-  width: 100px;
-} */
-
-/* .arts img{
-  max-height: 300px;
-} */
 
 .center-cropped {
   width: 800px;
@@ -88,12 +77,19 @@
 }
 
 
+#formSubmit{
+  background: white;
+  border-radius: 1px solid blue;
+}
+
+
 #scrollUpButton {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
+  width: 50px;
   /* border: 1px solid black;
   outline: none;
   background-color: white;

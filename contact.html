@@ -36,10 +36,10 @@
                     <a class="nav-link" href="projects.html"> Projects </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About </a>
+                    <a class="nav-link " href="about.html"> About </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html"> Contact </a>
+                    <a class="nav-link active" href="contact.html"> Contact </a>
                   </li>
                 </ul>
               </div>
@@ -52,8 +52,20 @@
 
       <div class="container " >
         <div class="row d-flex justify-content-center ">
-            <div class="col-xs-12 vertical-center">
-              <div class="display-1 text-center ">Negativity is the enemy <br> of <br>creativity.</div>
+            <div class="col-md-12 vertical-center">
+              <form action="https://formspree.io/robertjanjaskowski@gmail.com" method="POST" class="col-md-12">
+                <div class="form-group ">
+                  <label for="userEmail">Email address</label>
+                  <input type="email" class="form-control" name="email" id="userEmail" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="3" placeholder="Hello..."></textarea>
+                </div>
+
+                <input id="formSubmit" type="submit" value="Send" class="float-right rounded">
+              </form>
+
             </div>
         </div>
 
