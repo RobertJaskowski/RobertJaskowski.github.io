@@ -53,7 +53,7 @@ function addFooter(){
 
 function createSocial(doc, link, src){
   var div = document.createElement("div")
-  div.setAttribute('class','col-4 col-sm-2 col-md-2 col-xl-2 ')
+  div.setAttribute('class','col-4 col-sm-2 col-md-2 col-xl-2 pb-3')
   doc.appendChild(div)
   var element = document.createElement('a')
   element.setAttribute('href', link);
