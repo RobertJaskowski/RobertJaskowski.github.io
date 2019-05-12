@@ -7,9 +7,11 @@ function addFooter(){
     // footerContent.setAttribute('class','footer-content')
     // doc.appendChild(footerContent)
 
-    // var copyright = document.createElement('p')
-    // copyright.innerHTML = "2019 &copy Robert Jaśkowski"
-    // footerContent.appendChild(copyright)
+
+    var footer = document.getElementById("footerCopyright")
+    var copyright = document.createElement('p')
+    copyright.innerHTML = "2019 &copy Robert Jaśkowski"
+    footer.appendChild(copyright)
 
     // var socials = document.createElement("div")
     // socials.setAttribute('class','socials')
@@ -44,14 +46,14 @@ function addFooter(){
     // </div>
     // <div class="col-3 col-sm-2 col-md-2 col-xl-1 max-width-50" >
     //   <img class="img-fluid" src="img/deviantart.svg" alt="asd">
-    // </div> 
+    // </div>
 
 }
 
 
 function createSocial(doc, link, src){
   var div = document.createElement("div")
-  div.setAttribute('class','col-4 col-sm-2 col-md-2 col-xl-1 mb-3')
+  div.setAttribute('class','col-4 col-sm-2 col-md-2 col-xl-2 ')
   doc.appendChild(div)
   var element = document.createElement('a')
   element.setAttribute('href', link);

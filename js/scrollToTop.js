@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById("footerScrollUpToTop").style.display = "none";
 
 })
+
 window.onscroll = function() {scrollFunction()};
 
 document.getElementById("footerScrollUpToTop").addEventListener("click", topFunction)
