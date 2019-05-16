@@ -25,8 +25,9 @@ function addFooter(){
     createSocial(doc, "https://www.youtube.com/channel/UCCa3HL9yIiH0SEtnEw0cxqg", "img/youTube.svg")
     createSocial(doc, "https://twitter.com/rjjaskowski", "img/twitter.svg")
     createSocial(doc, "https://www.linkedin.com/in/robert-jaśkowski-331a9214b/", "img/linkedin.svg")
-
-
+    createSocial(doc, "https://www.instagram.com/robertjjaskowski/", "img/instagram.svg")
+    createSocial(doc, "https://pl.pinterest.com/robertjjaskowski/", "img/pinterest.svg")
+    createSocial(doc, "https://pixiv.me/robertjaskowski", "img/pixiv.svg")
 
     //  <div class="col-3 col-sm-2 col-md-2 col-xl-1 max-width-50" >
     //   <img class="img-fluid" src="img/deviantart.svg" alt="asd">
@@ -53,7 +54,7 @@ function addFooter(){
 
 function createSocial(doc, link, src){
   var div = document.createElement("div")
-  div.setAttribute('class','col-4 col-sm-2 col-md-2 col-xl-2 pb-3')
+  div.setAttribute('class','col-4 col-sm-1 col-md-1 col-xl-1 mt-2')
   doc.appendChild(div)
   var element = document.createElement('a')
   element.setAttribute('href', link);
