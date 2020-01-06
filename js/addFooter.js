@@ -10,7 +10,7 @@ function addFooter(){
 
     var footer = document.getElementById("footerCopyright")
     var copyright = document.createElement('p')
-    copyright.innerHTML = "2019 &copy Robert Jaśkowski"
+    copyright.innerHTML = "2020 &copy Robert Jaśkowski"
     footer.appendChild(copyright)
 
     // var socials = document.createElement("div")
