@@ -50,8 +50,43 @@
     <main>
 
       <div class="container  shadow-lg arts p-0 mb-5" >
+	  
+			<div class="portfolio-menu p-4">
+				<ul>
+				   <li class="btn btn-outline-dark active" data-filter="*">All</li>
+				   <li class="btn btn-outline-dark" data-filter=".y2020">2020</li>
+				   <li class="btn btn-outline-dark" data-filter=".y2019">2019</li>
+				   <li class="btn btn-outline-dark text" data-filter=".y2018">2018</li>
+				</ul>
+			</div>
+			
+			
+			
+			<div class="portfolio-item row">
+				<div class="item y2020 col-lg-3 col-md-4 col-6 ">
+				   <a href="https://cdna.artstation.com/p/assets/images/images/029/384/516/large/robert-jaskowski-14-08.jpg?1597358864" class="fancylight popup-btn" data-fancybox-group="light"> 
+				   <img class="img-fluid" src="https://www.artstation.com/artwork/lxG2Pz" alt="">
+				   </a>
+				</div>
+				
+				<div class="item y2019 col-lg-3 col-md-4 col-6 ">
+               <a href="https://cdnb.artstation.com/p/assets/images/images/029/063/863/large/robert-jaskowski-29-07-uzu.jpg?1596352804" class="fancylight popup-btn" data-fancybox-group="light"> 
+               <img class="img-fluid" src="https://www.artstation.com/artwork/w602vw" alt="">
+               </a>
+				</div>
+			
+			
+			</div>
+			
+			
+			
+			 <!--
         <div class="row no-gutters">
-            <!-- <div class="col-md-8 art">
+		
+		
+		
+            <!-- old change
+			<div class="col-md-8 art">
               <img class="img-fluid center-cropped" src="https://cdna.artstation.com/p/assets/images/images/017/086/872/large/robert-jaskowski-06-04-2019-red-and-yellow.jpg?1554585159" alt="Pink Twink and Papa Bern">
             </div>
             <div class="col-md-4 art">
@@ -63,6 +98,9 @@
             <div class="col-md-8 art">
                 <img class="img-fluid center-cropped" src="https://cdna.artstation.com/p/assets/images/images/017/070/794/large/robert-jaskowski-06-04-2019-looking-back.jpg?1554510489" alt="Pink Twink and Papa Bern">
             </div> -->
+			
+			
+			<!-- 2020
             <div class="col-md-8 center-cropped" style="
             background-image: url('https://cdna.artstation.com/p/assets/images/images/017/086/872/large/robert-jaskowski-06-04-2019-red-and-yellow.jpg?1554585159');
             background-position:bottom;
@@ -83,10 +121,12 @@
             ">
 
             </div>
-
+			  -->
 
         </div>
-
+		
+		
+		-->
 
 
       </div>
@@ -113,12 +153,15 @@
 
     <input type="image" id="scrollUpButton"  src="img/arrow.svg"/>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+	
+	</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.js" charset="utf-8"></script>
-
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+	
+	<script src="js/artFilter.js"></script>
     <script src="js/addFooter.js"></script>
     <script src="js/scrollToTop.js"></script>
 </body>
