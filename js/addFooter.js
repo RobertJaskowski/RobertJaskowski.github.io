@@ -25,7 +25,7 @@ function addFooter(){
     createSocial(doc, "https://www.youtube.com/channel/UCCa3HL9yIiH0SEtnEw0cxqg", "img/youTube.svg")
     createSocial(doc, "https://twitter.com/rjjaskowski", "img/twitter.svg")
     createSocial(doc, "https://www.linkedin.com/in/robert-jaśkowski-331a9214b/", "img/linkedin.svg")
-    createSocial(doc, "https://www.instagram.com/robertjjaskowski/", "img/instagram.svg")
+    createSocial(doc, "https://www.instagram.com/robertjaskowski/", "img/instagram.svg")
     createSocial(doc, "https://pl.pinterest.com/robertjjaskowski/", "img/pinterest.svg")
     createSocial(doc, "https://pixiv.me/robertjaskowski", "img/pixiv.svg")
 
